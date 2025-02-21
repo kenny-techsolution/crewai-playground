@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "crewai-playground"
+version = "0.1.0"
+description = ""
+authors = ["Kenny Chung <kennychung.techsolution@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+crewai = {extras = ["tools"], version = "^0.102.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
